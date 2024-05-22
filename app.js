@@ -1,7 +1,6 @@
 // Importa las funciones que necesitas del SDK
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-app.js";
+import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.12.1/firebase-firestore.js";
 // Tu configuración de Firebase
 const firebaseConfig = {
     apiKey: "AIzaSyBd8VEqwpRCytHpmPTOGAn7vfJVpZknpbg",
